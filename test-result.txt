@@ -1,0 +1,258 @@
+1..142
+ok 1 ChatterEmailHandler.testChatterEmailHandler1
+ok 2 ChatterEmailHandler.testChatterEmailHandler2
+ok 3 ChatterEmailHandler.testChatterEmailHandler3
+ok 4 ChatterEmailHandler.testChatterEmailHandler4
+ok 5 File_Test.testo
+not ok 6 footest.fooTest
+# System.AssertException: Assertion Failed: Expected: 123, Actual: null
+# Class.footest.fooTest: line 25, column 1
+ok 7 BINGOController.testBINGO_0
+ok 8 BINGOController.testBINGO_2
+ok 9 BeerControllerTest.myTest
+ok 10 egServerSideActionControllerTest.testEgServerSideActionController
+not ok 11 NewClass.onlyTest
+# System.AuraHandledException: Script-thrown exception
+# Class.NewClass.triggerBasicAuraHandledError: line 29, column 1
+# Class.NewClass.onlyTest: line 34, column 1
+not ok 12 UnfollowTests2.verifyBooleanEqualsDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyBooleanEqualsDelay: line 714, column 1
+not ok 13 UnfollowTests2.verifyBooleanNotEqualToDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyBooleanNotEqualToDelay: line 763, column 1
+not ok 14 UnfollowTests2.verifyDateTimeEqualsTodayDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyDateTimeEqualsTodayDelay: line 106, column 1
+not ok 15 UnfollowTests2.verifyDateTimeEqualsTodayDelay2
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyDateTimeEqualsTodayDelay2: line 148, column 1
+not ok 16 UnfollowTests2.verifyDoubleGreaterOrEqualDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyDoubleGreaterOrEqualDelay: line 384, column 1
+ok 17 QuoteSyncTestSuite.testCreateDuplicateOppLine
+ok 18 QuoteSyncTestSuite.testCreateDuplicateQuoteLine
+ok 19 QuoteSyncTestSuite.testCreateQuote
+ok 20 QuoteSyncTestSuite.testCreateQuoteWithQuoteLine
+ok 21 QuoteSyncTestSuite.testInsertOppLineNoSync
+ok 22 QuoteSyncTestSuite.testInsertOppLineNotSync
+not ok 23 UnfollowTests2.verifyDoubleGreaterThanDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyDoubleGreaterThanDelay: line 292, column 1
+not ok 24 UnfollowTests2.verifyDoubleLessOrEqualDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyDoubleLessOrEqualDelay: line 430, column 1
+ok 25 QuoteSyncTestSuite.testInsertOppLineSync
+ok 26 BINGOController.testBINGO_30
+ok 27 BINGOController.testShowAsPDF
+not ok 28 UnfollowTests2.verifyDoubleLessThanDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyDoubleLessThanDelay: line 338, column 1
+not ok 29 UnfollowTests2.verifyEmailContainsGmailDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyEmailContainsGmailDelay: line 859, column 1
+not ok 30 UnfollowTests2.verifyPhoneContains555Delay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyPhoneContains555Delay: line 811, column 1
+not ok 31 UnfollowTests2.verifyPicklistEqualsDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyPicklistEqualsDelay: line 620, column 1
+not ok 32 UnfollowTests2.verifyPicklistNotEqualToDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyPicklistNotEqualToDelay: line 666, column 1
+not ok 33 UnfollowTests2.verifyReportingJobDetailsDelay
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 2
+# Class.UnfollowTests2.verifyReportingJobDetailsDelay: line 1157, column 1
+not ok 34 UnfollowTests2.verifyReportingJobDetailsNoDelay
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests2.verifyReportingJobDetailsNoDelay: line 1102, column 1
+not ok 35 UnfollowTests2.verifyStringContainsDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyStringContainsDelay: line 478, column 1
+ok 36 QuoteSyncTestSuite.testInsertQuoteLineNoSync
+ok 37 QuoteSyncTestSuite.testInsertQuoteLineNotSync
+ok 38 QuoteSyncTestSuite.testInsertQuoteLineSync
+ok 39 QuoteSyncTestSuite.testStartSyncInsertOppLine
+ok 40 QuoteSyncTestSuite.testStartSyncInsertOppLineSetNull
+ok 41 QuoteSyncTestSuite.testStartSyncMatchOppLine_1
+ok 42 QuoteSyncTestSuite.testStartSyncMatchOppLine_1a
+not ok 43 footest.fooTest2
+# System.LimitException: Apex CPU time limit exceeded
+# Class.footest.fooTest2: line 13, column 1
+not ok 44 footest.fooTest3
+# System.AssertException: Assertion Failed: false test
+# Class.footest.fooTest3Stack: line 4, column 1
+# Class.footest.fooTest3: line 7, column 1
+not ok 45 UnfollowTests2.verifyStringLessOrEqualDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyStringLessOrEqualDelay: line 1053, column 1
+not ok 46 UnfollowTests2.verifyStringLessThanDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyStringLessThanDelay: line 956, column 1
+not ok 47 UnfollowTests2.verifyStringNotEqualToDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyStringNotEqualToDelay: line 246, column 1
+not ok 48 UnfollowTests2.verifyStringDoesNotContainDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyStringDoesNotContainDelay: line 525, column 1
+not ok 49 UnfollowTests2.verifyStringEqualsDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyStringEqualsDelay: line 198, column 1
+not ok 50 UnfollowTests2.verifyStringGreaterOrEqualDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyStringGreaterOrEqualDelay: line 1005, column 1
+not ok 51 UnfollowTests2.verifyStringGreaterThanDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyStringGreaterThanDelay: line 908, column 1
+ok 52 QuoteSyncTestSuite.testStartSyncMatchOppLine_2
+ok 53 QuoteSyncTestSuite.testStartSyncMatchOppLine_2a
+ok 54 QuoteSyncTestSuite.testStartSyncMatchOppLine_3
+ok 55 QuoteSyncTestSuite.testStartSyncMatchOppLine_3a
+ok 56 QuoteSyncTestSuite.testStartSyncMatchOppLine_4
+not ok 57 UnfollowTests2.verifyStringStartsWithDelay
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests2.verifyStringStartsWithDelay: line 573, column 1
+ok 58 UnfollowTests.testRemoveBatchJobFromQueue
+not ok 59 UnfollowTests.testRemoveDelayBatchJobFromQueue
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.testRemoveDelayBatchJobFromQueue: line 2056, column 1
+ok 60 UnfollowTests.testRemoveDelayRuleBatchJobFromQueue
+ok 61 UnfollowTests.testUnfollowButtonControllerActivateScheduler
+ok 62 UnfollowTests.testUnfollowButtonControllerDeactivateScheduler
+ok 63 UnfollowTests.testUnfollowButtonControllerDeactivateScheduler2
+ok 64 UnfollowTests.testUnfollowController
+ok 65 UnfollowTests.testUnfollowController2
+ok 66 QuoteSyncTestSuite.testStartSyncMatchOppLine_4a
+ok 67 QuoteSyncTestSuite.testStartSyncMatchOppLine_5
+ok 68 QuoteSyncTestSuite.testStartSyncMatchOppLine_6
+ok 69 QuoteSyncTestSuite.testStartSyncMatchOppLine_7
+ok 70 QuoteSyncTestSuite.testStartSyncMatchOppLine_7a
+not ok 71 UnfollowTests.testUnfollowRunThisRuleButton
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.testUnfollowRunThisRuleButton: line 1912, column 1
+ok 72 UnfollowTests.verify6OrMoreBatchJobsQueueUp
+not ok 73 UnfollowTests.verifyBooleanEquals
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyBooleanEquals: line 1216, column 1
+not ok 74 UnfollowTests.verifyBooleanNotEqualTo
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyBooleanNotEqualTo: line 1265, column 1
+ok 75 UnfollowTests.verifyCommaValueThrowsError
+not ok 76 UnfollowTests.verifyDateTimeEqualsToday
+# System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+# Class.UnfollowTests.verifyDateTimeEqualsToday: line 632, column 1
+not ok 77 UnfollowTests.verifyDaysDelayDupeRecordID
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests.verifyDaysDelayDupeRecordID: line 1365, column 1
+not ok 78 UnfollowTests.verifyDaysDelayEquals1VerifyQueue
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests.verifyDaysDelayEquals1VerifyQueue: line 1314, column 1
+ok 79 UnfollowTests.verifyDelayScheduler
+not ok 80 UnfollowTests.verifyDoubleGreaterOrEqual
+# System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+# Class.UnfollowTests.verifyDoubleGreaterOrEqual: line 875, column 1
+not ok 81 UnfollowTests.verifyDoubleGreaterThan
+# System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+# Class.UnfollowTests.verifyDoubleGreaterThan: line 777, column 1
+not ok 82 UnfollowTests.verifyDoubleLessOrEqual
+# System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+# Class.UnfollowTests.verifyDoubleLessOrEqual: line 924, column 1
+not ok 83 UnfollowTests.verifyDoubleLessThan
+# System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+# Class.UnfollowTests.verifyDoubleLessThan: line 826, column 1
+not ok 84 UnfollowTests.verifyDupeBatchJobsFailNicely
+# System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+# Class.UnfollowTests.verifyDupeBatchJobsFailNicely: line 2302, column 1
+ok 85 UnfollowTests.verifyDupeRulesDoesntGack
+not ok 86 UnfollowTests.verifyDupeRulesSucceed
+# System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+# Class.UnfollowTests.verifyDupeRulesSucceed: line 546, column 1
+not ok 87 UnfollowTests.verifyEmailContainsGmail
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyEmailContainsGmail: line 1526, column 1
+not ok 88 UnfollowTests.verifyFieldNameCapitalsDontGack
+# System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+# Class.UnfollowTests.verifyFieldNameCapitalsDontGack: line 501, column 1
+ok 89 UnfollowTests.verifyInactiveRulesDontFire
+ok 90 UnfollowTests.verifyInvalidFieldNameThrowsError
+ok 91 UnfollowTests.verifyInvalidObjectNameThrowsError
+ok 92 UnfollowTests.verifyInvalidOperatorThrowsError
+ok 93 UnfollowTests.verifyLimit10UpdatesOrInsertsAtOnce
+ok 94 UnfollowTests.verifyNegativeDaysDelayThrowsError
+ok 95 UnfollowTests.verifyNullFieldNameThrowsError
+ok 96 UnfollowTests.verifyNullObjectNameThrowsError
+ok 97 UnfollowTests.verifyNullOperatorThrowsError
+ok 98 UnfollowTests.verifyNullValueThrowsError
+not ok 99 UnfollowTests.verifyPhoneContains555
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyPhoneContains555: line 1477, column 1
+not ok 100 UnfollowTests.verifyPicklistEquals
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyPicklistEquals: line 1119, column 1
+not ok 101 UnfollowTests.verifyPicklistNotEqualTo
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyPicklistNotEqualTo: line 1167, column 1
+not ok 102 UnfollowTests.verifySavedDelayJobRunsCorrectly
+# System.AssertException: Assertion Failed: Expected: 2, Actual: 0
+# Class.UnfollowTests.verifySavedDelayJobRunsCorrectly: line 2193, column 1
+not ok 103 UnfollowTests.verifyStringContains
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyStringContains: line 974, column 1
+not ok 104 UnfollowTests.verifyStringDoesNotContain
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyStringDoesNotContain: line 1023, column 1
+not ok 105 UnfollowTests.verifyStringEquals
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyStringEquals: line 679, column 1
+not ok 106 UnfollowTests.verifyStringGreaterOrEqual
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyStringGreaterOrEqual: line 1675, column 1
+not ok 107 UnfollowTests.verifyStringGreaterThan
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyStringGreaterThan: line 1576, column 1
+not ok 108 UnfollowTests.verifyStringLessOrEqual
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyStringLessOrEqual: line 1724, column 1
+not ok 109 UnfollowTests.verifyStringLessThan
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyStringLessThan: line 1625, column 1
+not ok 110 UnfollowTests.verifyStringNotEqualTo
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyStringNotEqualTo: line 728, column 1
+not ok 111 UnfollowTests.verifyStringStartsWith
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 4
+# Class.UnfollowTests.verifyStringStartsWith: line 1071, column 1
+ok 112 QuoteSyncTestSuite.testUpdateDuplicateQuoteLine
+ok 113 QuoteSyncTestSuite.testUpdateOppLineNoSync
+ok 114 QuoteSyncTestSuite.testUpdateOppLineNotSync
+ok 115 QuoteSyncTestSuite.testUpdateOppLineSyncSetNull
+ok 116 QuoteSyncTestSuite.testUpdateOppLineSync_1
+ok 117 QuoteSyncTestSuite.testUpdateOppLineSync_2
+ok 118 QuoteSyncTestSuite.testUpdateOppLineSync_3
+ok 119 QuoteSyncTestSuite.testUpdateOppNoSync
+ok 120 QuoteSyncTestSuite.testUpdateOppNotSync
+ok 121 QuoteSyncTestSuite.testUpdateOppSync
+ok 122 QuoteSyncTestSuite.testUpdateOppSyncSetNull
+ok 123 QuoteSyncTestSuite.testUpdateQuoteLineNoSync
+ok 124 QuoteSyncTestSuite.testUpdateQuoteLineNotSync
+ok 125 QuoteSyncTestSuite.testUpdateQuoteLineSyncSetNull
+ok 126 QuoteSyncTestSuite.testUpdateQuoteLineSync_1
+ok 127 QuoteSyncTestSuite.testUpdateQuoteLineSync_2
+ok 128 QuoteSyncTestSuite.testUpdateQuoteLineSync_3
+ok 129 QuoteSyncTestSuite.testUpdateQuoteNoSync
+ok 130 QuoteSyncTestSuite.testUpdateQuoteNotSync
+ok 131 QuoteSyncTestSuite.testUpdateQuoteSync
+ok 132 QuoteSyncTestSuite.testUpdateQuoteSyncSetNull
+ok 133 QuoteSyncTestSuite.testStartSyncOtherQuote
+ok 134 QuoteSyncTestSuite.testStartSyncQuote
+ok 135 QuoteSyncTestSuite.testStartSyncQuoteSetNull
+ok 136 QuoteSyncTestSuite.testStartSyncUpdateOppLine
+ok 137 QuoteSyncTestSuite.testStartSyncUpdateOppLineSetNull
+ok 138 QuoteSyncTestSuite.testStartSyncWithQuoteLine
+ok 139 QuoteSyncTestSuite.testStartSyncWithQuoteLineSetNull
+ok 140 QuoteSyncTestSuite.testStopSync
+ok 141 QuoteSyncTestSuite.testUpdateDuplicateOppLine
+not ok 142 UnfollowTests.verifyUnfollowQueueEmptiesProperly
+# System.AssertException: Assertion Failed: Expected: 0, Actual: 2
+# Class.UnfollowTests.verifyUnfollowQueueEmptiesProperly: line 1412, column 1
+# Run "sfdx force:apex:test:report -i 7072v0000CY2ouY --resultformat <format>" to retrieve test results in a different format.

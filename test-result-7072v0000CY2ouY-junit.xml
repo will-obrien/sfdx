@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-11-07T13:39:27+10:00" hostname="https://codescan431-dev-ed.my.salesforce.com" tests="142" failures="56"  errors="0"  time="159.25">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="142"/>
+            <property name="passing" value="86"/>
+            <property name="failing" value="56"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="61%"/>
+            <property name="failRate" value="39%"/>
+            <property name="testStartTime" value="Nov 7, 2019 1:39 PM"/>
+            <property name="testExecutionTime" value="159.25 s"/>
+            <property name="testTotalTime" value="159.25 s"/>
+            <property name="commandTime" value="82.56 s"/>
+            <property name="hostname" value="https://codescan431-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D90000000i9wTEAQ"/>
+            <property name="username" value="ben.codescan@villagechief.com"/>
+            <property name="testRunId" value="7072v0000CY2ouY"/>
+            <property name="userId" value="00590000001F6gSAAS"/>
+            <property name="testRunCoverage" value="77%"/>
+            <property name="orgWideCoverage" value="68%"/>
+        </properties>
+        <testcase name="myTest" classname="BeerControllerTest" time="0.04">
+        </testcase>
+        <testcase name="testBINGO_0" classname="BINGOController" time="0.05">
+        </testcase>
+        <testcase name="testBINGO_2" classname="BINGOController" time="0.82">
+        </testcase>
+        <testcase name="testBINGO_30" classname="BINGOController" time="8.23">
+        </testcase>
+        <testcase name="testShowAsPDF" classname="BINGOController" time="0.04">
+        </testcase>
+        <testcase name="testChatterEmailHandler1" classname="ChatterEmailHandler" time="0.29">
+        </testcase>
+        <testcase name="testChatterEmailHandler2" classname="ChatterEmailHandler" time="0.14">
+        </testcase>
+        <testcase name="testChatterEmailHandler3" classname="ChatterEmailHandler" time="0.17">
+        </testcase>
+        <testcase name="testChatterEmailHandler4" classname="ChatterEmailHandler" time="0.1">
+        </testcase>
+        <testcase name="testEgServerSideActionController" classname="egServerSideActionControllerTest" time="0.02">
+        </testcase>
+        <testcase name="testo" classname="File_Test" time="0.01">
+        </testcase>
+        <testcase name="fooTest" classname="footest" time="0.14">
+            <failure message="System.AssertException: Assertion Failed: Expected: 123, Actual: null"><![CDATA[Class.footest.fooTest: line 25, column 1]]></failure>
+        </testcase>
+        <testcase name="fooTest2" classname="footest" time="16.18">
+            <failure message="System.LimitException: Apex CPU time limit exceeded"><![CDATA[Class.footest.fooTest2: line 13, column 1]]></failure>
+        </testcase>
+        <testcase name="fooTest3" classname="footest" time="0.01">
+            <failure message="System.AssertException: Assertion Failed: false test"><![CDATA[Class.footest.fooTest3Stack: line 4, column 1
+Class.footest.fooTest3: line 7, column 1]]></failure>
+        </testcase>
+        <testcase name="onlyTest" classname="NewClass" time="0.01">
+            <failure message="System.AuraHandledException: Script-thrown exception"><![CDATA[Class.NewClass.triggerBasicAuraHandledError: line 29, column 1
+Class.NewClass.onlyTest: line 34, column 1]]></failure>
+        </testcase>
+        <testcase name="testCreateDuplicateOppLine" classname="QuoteSyncTestSuite" time="0.92">
+        </testcase>
+        <testcase name="testCreateDuplicateQuoteLine" classname="QuoteSyncTestSuite" time="0.79">
+        </testcase>
+        <testcase name="testCreateQuote" classname="QuoteSyncTestSuite" time="0.26">
+        </testcase>
+        <testcase name="testCreateQuoteWithQuoteLine" classname="QuoteSyncTestSuite" time="0.48">
+        </testcase>
+        <testcase name="testInsertOppLineNoSync" classname="QuoteSyncTestSuite" time="0.77">
+        </testcase>
+        <testcase name="testInsertOppLineNotSync" classname="QuoteSyncTestSuite" time="0.58">
+        </testcase>
+        <testcase name="testInsertOppLineSync" classname="QuoteSyncTestSuite" time="2.35">
+        </testcase>
+        <testcase name="testInsertQuoteLineNoSync" classname="QuoteSyncTestSuite" time="0.87">
+        </testcase>
+        <testcase name="testInsertQuoteLineNotSync" classname="QuoteSyncTestSuite" time="0.43">
+        </testcase>
+        <testcase name="testInsertQuoteLineSync" classname="QuoteSyncTestSuite" time="1.12">
+        </testcase>
+        <testcase name="testStartSyncInsertOppLine" classname="QuoteSyncTestSuite" time="0.68">
+        </testcase>
+        <testcase name="testStartSyncInsertOppLineSetNull" classname="QuoteSyncTestSuite" time="0.8">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_1" classname="QuoteSyncTestSuite" time="1.14">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_1a" classname="QuoteSyncTestSuite" time="1.13">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_2" classname="QuoteSyncTestSuite" time="1.24">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_2a" classname="QuoteSyncTestSuite" time="1.26">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_3" classname="QuoteSyncTestSuite" time="2.1">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_3a" classname="QuoteSyncTestSuite" time="1.07">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_4" classname="QuoteSyncTestSuite" time="1.08">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_4a" classname="QuoteSyncTestSuite" time="1.36">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_5" classname="QuoteSyncTestSuite" time="1.12">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_6" classname="QuoteSyncTestSuite" time="1.25">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_7" classname="QuoteSyncTestSuite" time="1.48">
+        </testcase>
+        <testcase name="testStartSyncMatchOppLine_7a" classname="QuoteSyncTestSuite" time="1.26">
+        </testcase>
+        <testcase name="testStartSyncOtherQuote" classname="QuoteSyncTestSuite" time="1.75">
+        </testcase>
+        <testcase name="testStartSyncQuote" classname="QuoteSyncTestSuite" time="0.52">
+        </testcase>
+        <testcase name="testStartSyncQuoteSetNull" classname="QuoteSyncTestSuite" time="0.5">
+        </testcase>
+        <testcase name="testStartSyncUpdateOppLine" classname="QuoteSyncTestSuite" time="1.1">
+        </testcase>
+        <testcase name="testStartSyncUpdateOppLineSetNull" classname="QuoteSyncTestSuite" time="1.09">
+        </testcase>
+        <testcase name="testStartSyncWithQuoteLine" classname="QuoteSyncTestSuite" time="1.12">
+        </testcase>
+        <testcase name="testStartSyncWithQuoteLineSetNull" classname="QuoteSyncTestSuite" time="0.77">
+        </testcase>
+        <testcase name="testStopSync" classname="QuoteSyncTestSuite" time="1.27">
+        </testcase>
+        <testcase name="testUpdateDuplicateOppLine" classname="QuoteSyncTestSuite" time="1.35">
+        </testcase>
+        <testcase name="testUpdateDuplicateQuoteLine" classname="QuoteSyncTestSuite" time="1.04">
+        </testcase>
+        <testcase name="testUpdateOppLineNoSync" classname="QuoteSyncTestSuite" time="0.89">
+        </testcase>
+        <testcase name="testUpdateOppLineNotSync" classname="QuoteSyncTestSuite" time="0.72">
+        </testcase>
+        <testcase name="testUpdateOppLineSyncSetNull" classname="QuoteSyncTestSuite" time="1.08">
+        </testcase>
+        <testcase name="testUpdateOppLineSync_1" classname="QuoteSyncTestSuite" time="1.02">
+        </testcase>
+        <testcase name="testUpdateOppLineSync_2" classname="QuoteSyncTestSuite" time="1.07">
+        </testcase>
+        <testcase name="testUpdateOppLineSync_3" classname="QuoteSyncTestSuite" time="0.84">
+        </testcase>
+        <testcase name="testUpdateOppNoSync" classname="QuoteSyncTestSuite" time="0.66">
+        </testcase>
+        <testcase name="testUpdateOppNotSync" classname="QuoteSyncTestSuite" time="0.31">
+        </testcase>
+        <testcase name="testUpdateOppSync" classname="QuoteSyncTestSuite" time="0.44">
+        </testcase>
+        <testcase name="testUpdateOppSyncSetNull" classname="QuoteSyncTestSuite" time="0.49">
+        </testcase>
+        <testcase name="testUpdateQuoteLineNoSync" classname="QuoteSyncTestSuite" time="1.24">
+        </testcase>
+        <testcase name="testUpdateQuoteLineNotSync" classname="QuoteSyncTestSuite" time="0.65">
+        </testcase>
+        <testcase name="testUpdateQuoteLineSyncSetNull" classname="QuoteSyncTestSuite" time="1.03">
+        </testcase>
+        <testcase name="testUpdateQuoteLineSync_1" classname="QuoteSyncTestSuite" time="1.06">
+        </testcase>
+        <testcase name="testUpdateQuoteLineSync_2" classname="QuoteSyncTestSuite" time="1.03">
+        </testcase>
+        <testcase name="testUpdateQuoteLineSync_3" classname="QuoteSyncTestSuite" time="0.9">
+        </testcase>
+        <testcase name="testUpdateQuoteNoSync" classname="QuoteSyncTestSuite" time="0.57">
+        </testcase>
+        <testcase name="testUpdateQuoteNotSync" classname="QuoteSyncTestSuite" time="0.37">
+        </testcase>
+        <testcase name="testUpdateQuoteSync" classname="QuoteSyncTestSuite" time="0.47">
+        </testcase>
+        <testcase name="testUpdateQuoteSyncSetNull" classname="QuoteSyncTestSuite" time="0.45">
+        </testcase>
+        <testcase name="testRemoveBatchJobFromQueue" classname="UnfollowTests" time="23.73">
+        </testcase>
+        <testcase name="testRemoveDelayBatchJobFromQueue" classname="UnfollowTests" time="1.11">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.testRemoveDelayBatchJobFromQueue: line 2056, column 1]]></failure>
+        </testcase>
+        <testcase name="testRemoveDelayRuleBatchJobFromQueue" classname="UnfollowTests" time="1.3">
+        </testcase>
+        <testcase name="testUnfollowButtonControllerActivateScheduler" classname="UnfollowTests" time="0.28">
+        </testcase>
+        <testcase name="testUnfollowButtonControllerDeactivateScheduler" classname="UnfollowTests" time="0.23">
+        </testcase>
+        <testcase name="testUnfollowButtonControllerDeactivateScheduler2" classname="UnfollowTests" time="0.18">
+        </testcase>
+        <testcase name="testUnfollowController" classname="UnfollowTests" time="0.48">
+        </testcase>
+        <testcase name="testUnfollowController2" classname="UnfollowTests" time="0.21">
+        </testcase>
+        <testcase name="testUnfollowRunThisRuleButton" classname="UnfollowTests" time="0.89">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.testUnfollowRunThisRuleButton: line 1912, column 1]]></failure>
+        </testcase>
+        <testcase name="verify6OrMoreBatchJobsQueueUp" classname="UnfollowTests" time="0.66">
+        </testcase>
+        <testcase name="verifyBooleanEquals" classname="UnfollowTests" time="0.86">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyBooleanEquals: line 1216, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyBooleanNotEqualTo" classname="UnfollowTests" time="0.85">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyBooleanNotEqualTo: line 1265, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyCommaValueThrowsError" classname="UnfollowTests" time="0.79">
+        </testcase>
+        <testcase name="verifyDateTimeEqualsToday" classname="UnfollowTests" time="0.82">
+            <failure message="System.AssertException: Assertion Failed: Expected: 4, Actual: 0"><![CDATA[Class.UnfollowTests.verifyDateTimeEqualsToday: line 632, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDaysDelayDupeRecordID" classname="UnfollowTests" time="1.44">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests.verifyDaysDelayDupeRecordID: line 1365, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDaysDelayEquals1VerifyQueue" classname="UnfollowTests" time="0.88">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests.verifyDaysDelayEquals1VerifyQueue: line 1314, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDelayScheduler" classname="UnfollowTests" time="0.1">
+        </testcase>
+        <testcase name="verifyDoubleGreaterOrEqual" classname="UnfollowTests" time="0.89">
+            <failure message="System.AssertException: Assertion Failed: Expected: 4, Actual: 0"><![CDATA[Class.UnfollowTests.verifyDoubleGreaterOrEqual: line 875, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDoubleGreaterThan" classname="UnfollowTests" time="0.87">
+            <failure message="System.AssertException: Assertion Failed: Expected: 4, Actual: 0"><![CDATA[Class.UnfollowTests.verifyDoubleGreaterThan: line 777, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDoubleLessOrEqual" classname="UnfollowTests" time="0.88">
+            <failure message="System.AssertException: Assertion Failed: Expected: 4, Actual: 0"><![CDATA[Class.UnfollowTests.verifyDoubleLessOrEqual: line 924, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDoubleLessThan" classname="UnfollowTests" time="0.92">
+            <failure message="System.AssertException: Assertion Failed: Expected: 4, Actual: 0"><![CDATA[Class.UnfollowTests.verifyDoubleLessThan: line 826, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDupeBatchJobsFailNicely" classname="UnfollowTests" time="0.94">
+            <failure message="System.AssertException: Assertion Failed: Expected: 4, Actual: 0"><![CDATA[Class.UnfollowTests.verifyDupeBatchJobsFailNicely: line 2302, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDupeRulesDoesntGack" classname="UnfollowTests" time="0.01">
+        </testcase>
+        <testcase name="verifyDupeRulesSucceed" classname="UnfollowTests" time="0.93">
+            <failure message="System.AssertException: Assertion Failed: Expected: 4, Actual: 0"><![CDATA[Class.UnfollowTests.verifyDupeRulesSucceed: line 546, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyEmailContainsGmail" classname="UnfollowTests" time="0.92">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyEmailContainsGmail: line 1526, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyFieldNameCapitalsDontGack" classname="UnfollowTests" time="0.88">
+            <failure message="System.AssertException: Assertion Failed: Expected: 4, Actual: 0"><![CDATA[Class.UnfollowTests.verifyFieldNameCapitalsDontGack: line 501, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyInactiveRulesDontFire" classname="UnfollowTests" time="0.8">
+        </testcase>
+        <testcase name="verifyInvalidFieldNameThrowsError" classname="UnfollowTests" time="0.89">
+        </testcase>
+        <testcase name="verifyInvalidObjectNameThrowsError" classname="UnfollowTests" time="0.84">
+        </testcase>
+        <testcase name="verifyInvalidOperatorThrowsError" classname="UnfollowTests" time="0.74">
+        </testcase>
+        <testcase name="verifyLimit10UpdatesOrInsertsAtOnce" classname="UnfollowTests" time="0.21">
+        </testcase>
+        <testcase name="verifyNegativeDaysDelayThrowsError" classname="UnfollowTests" time="0.7">
+        </testcase>
+        <testcase name="verifyNullFieldNameThrowsError" classname="UnfollowTests" time="0.78">
+        </testcase>
+        <testcase name="verifyNullObjectNameThrowsError" classname="UnfollowTests" time="0.68">
+        </testcase>
+        <testcase name="verifyNullOperatorThrowsError" classname="UnfollowTests" time="0.67">
+        </testcase>
+        <testcase name="verifyNullValueThrowsError" classname="UnfollowTests" time="0.74">
+        </testcase>
+        <testcase name="verifyPhoneContains555" classname="UnfollowTests" time="0.86">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyPhoneContains555: line 1477, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyPicklistEquals" classname="UnfollowTests" time="0.94">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyPicklistEquals: line 1119, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyPicklistNotEqualTo" classname="UnfollowTests" time="0.84">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyPicklistNotEqualTo: line 1167, column 1]]></failure>
+        </testcase>
+        <testcase name="verifySavedDelayJobRunsCorrectly" classname="UnfollowTests" time="0.28">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests.verifySavedDelayJobRunsCorrectly: line 2193, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringContains" classname="UnfollowTests" time="0.9">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyStringContains: line 974, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringDoesNotContain" classname="UnfollowTests" time="0.89">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyStringDoesNotContain: line 1023, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringEquals" classname="UnfollowTests" time="1.14">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyStringEquals: line 679, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringGreaterOrEqual" classname="UnfollowTests" time="0.82">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyStringGreaterOrEqual: line 1675, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringGreaterThan" classname="UnfollowTests" time="0.93">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyStringGreaterThan: line 1576, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringLessOrEqual" classname="UnfollowTests" time="0.85">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyStringLessOrEqual: line 1724, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringLessThan" classname="UnfollowTests" time="0.85">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyStringLessThan: line 1625, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringNotEqualTo" classname="UnfollowTests" time="0.88">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyStringNotEqualTo: line 728, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringStartsWith" classname="UnfollowTests" time="0.87">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests.verifyStringStartsWith: line 1071, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyUnfollowQueueEmptiesProperly" classname="UnfollowTests" time="0.89">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 2"><![CDATA[Class.UnfollowTests.verifyUnfollowQueueEmptiesProperly: line 1412, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyBooleanEqualsDelay" classname="UnfollowTests2" time="1.15">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyBooleanEqualsDelay: line 714, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyBooleanNotEqualToDelay" classname="UnfollowTests2" time="0.77">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyBooleanNotEqualToDelay: line 763, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDateTimeEqualsTodayDelay" classname="UnfollowTests2" time="0.73">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyDateTimeEqualsTodayDelay: line 106, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDateTimeEqualsTodayDelay2" classname="UnfollowTests2" time="1.02">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyDateTimeEqualsTodayDelay2: line 148, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDoubleGreaterOrEqualDelay" classname="UnfollowTests2" time="1.05">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyDoubleGreaterOrEqualDelay: line 384, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDoubleGreaterThanDelay" classname="UnfollowTests2" time="0.9">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyDoubleGreaterThanDelay: line 292, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDoubleLessOrEqualDelay" classname="UnfollowTests2" time="0.83">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyDoubleLessOrEqualDelay: line 430, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyDoubleLessThanDelay" classname="UnfollowTests2" time="0.82">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyDoubleLessThanDelay: line 338, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyEmailContainsGmailDelay" classname="UnfollowTests2" time="0.88">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyEmailContainsGmailDelay: line 859, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyPhoneContains555Delay" classname="UnfollowTests2" time="0.9">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyPhoneContains555Delay: line 811, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyPicklistEqualsDelay" classname="UnfollowTests2" time="0.97">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyPicklistEqualsDelay: line 620, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyPicklistNotEqualToDelay" classname="UnfollowTests2" time="0.9">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyPicklistNotEqualToDelay: line 666, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyReportingJobDetailsDelay" classname="UnfollowTests2" time="0.8">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 2"><![CDATA[Class.UnfollowTests2.verifyReportingJobDetailsDelay: line 1157, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyReportingJobDetailsNoDelay" classname="UnfollowTests2" time="0.89">
+            <failure message="System.AssertException: Assertion Failed: Expected: 0, Actual: 4"><![CDATA[Class.UnfollowTests2.verifyReportingJobDetailsNoDelay: line 1102, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringContainsDelay" classname="UnfollowTests2" time="0.88">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyStringContainsDelay: line 478, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringDoesNotContainDelay" classname="UnfollowTests2" time="0.88">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyStringDoesNotContainDelay: line 525, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringEqualsDelay" classname="UnfollowTests2" time="0.85">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyStringEqualsDelay: line 198, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringGreaterOrEqualDelay" classname="UnfollowTests2" time="1.02">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyStringGreaterOrEqualDelay: line 1005, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringGreaterThanDelay" classname="UnfollowTests2" time="0.92">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyStringGreaterThanDelay: line 908, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringLessOrEqualDelay" classname="UnfollowTests2" time="0.86">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyStringLessOrEqualDelay: line 1053, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringLessThanDelay" classname="UnfollowTests2" time="0.99">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyStringLessThanDelay: line 956, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringNotEqualToDelay" classname="UnfollowTests2" time="0.82">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyStringNotEqualToDelay: line 246, column 1]]></failure>
+        </testcase>
+        <testcase name="verifyStringStartsWithDelay" classname="UnfollowTests2" time="0.86">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2, Actual: 0"><![CDATA[Class.UnfollowTests2.verifyStringStartsWithDelay: line 573, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>
